@@ -138,14 +138,4 @@ footer {
     margin-top: 20px;
     font-size: 14px;
     color: #555;
-}
-
-@media (max-width: 768px) {
-    .sidebar {
-        display: none;
-    }
-
-    .main-content {
-        margin-left: 0;
-    }
-}
+} 
