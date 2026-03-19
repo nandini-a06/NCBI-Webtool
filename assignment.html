@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCBI Bioinformatics Portal</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h2>🔬 NCBI</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank"> PubMed </a></li>
+                <li><a href="https://www.ncbi.nlm.nih.gov/gene" target="_blank"> Gene </a></li>
+                <li><a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank"> BLAST </a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>NCBI Tool</p>
+        </div>
+    </aside>
+
+
+    <main class="main-content">
+
+        <!-- Header -->
+        <header class="header">
+            <h1>NCBI Access Portal</h1>
+
+            <p>
+                This platform provides integrated access to major NCBI databases including Gene, PubMed, and BLAST.
+                It is designed to simplify biological data exploration for students, researchers, and professionals.
+            </p>
+        </header>
+
+       
+        <section class="search-box">
+
+            <h2>Search NCBI</h2>
+
+            <form action="https://www.ncbi.nlm.nih.gov/search/all/" method="get" target="_blank">
+
+                <input type="text" name="term" placeholder="Search gene, protein, disease..." required>
+
+                <select name="db">
+                    <option value="all">All Databases</option>
+                    <option value="gene">Gene</option>
+                    <option value="pubmed">PubMed</option>
+                    <option value="nuccore">Nucleotide</option>
+                </select>
+
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        
+        <section class="cards">
+
+            <div class="card">
+                <h3>📄 PubMed</h3>
+                <p>Access millions of biomedical research papers.</p>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>🧬 Gene Database</h3>
+                <p>Detailed gene structure and function information.</p>
+                <a href="https://www.ncbi.nlm.nih.gov/gene" target="_blank">Explore</a>
+            </div>
+
+            <div class="card">
+                <h3>⚡ BLAST Tool</h3>
+                <p>Compare biological sequences efficiently.</p>
+                <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank">Explore</a>
+            </div>
+
+        </section>
+
+    
+        <section class="info">
+            <h2>About This Tool</h2>
+            <p>
+                The National Center for Biotechnology Information (NCBI) provides access to a wide range of biological
+                databases. This web interface integrates key services into a simplified dashboard for faster access
+                and improved usability.
+            </p>
+        </section>
+
+        
+        <footer>
+            <p>© NCBI Web Tool</p>
+        </footer>
+
+    </main>
+
+</div>
+
+</body>
+</html>
